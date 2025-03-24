@@ -1,0 +1,31 @@
+# Python version requirement
+python>=3.10
+
+# Core dependencies
+numpy==1.23.5
+scipy==1.10.1
+
+# Data processing
+spacy==3.5.3
+spacy[transformers]
+
+# Spacy model should be installed separately:
+# python -m spacy download en_core_web_sm
+
+# PubMed data retrieval
+biopython==1.81
+
+# Text embedding
+sentence-transformers==2.2.2
+torch==2.0.1
+transformers==4.31.0
+
+# Vector search
+faiss-cpu==1.7.4
+
+# User interface
+gradio==3.36.1
+
+# Miscellaneous
+tqdm==4.65.0
+pip>=22.0
